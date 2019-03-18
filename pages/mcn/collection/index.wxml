@@ -1,0 +1,42 @@
+<view class="center-page">
+
+    <head title="收藏夹"></head>
+    <view class="container">
+        <view class="collection-item">
+            <image class="collection-img" src="../../../assets/img/photo1.png" />
+            <view class="collection-title">
+                <view class="title">李荣臻Love</view>
+                <view class="sup-title">总粉丝 239.3w</view>
+            </view>
+            <view class="collection-right">
+                <view class="kol">KOL</view>
+                <view class="more">></view>
+            </view>
+        </view>
+        <view class="collection-item">
+            <image class="collection-img" src="../../../assets/img/photo1.png" />
+            <view class="collection-title">
+                <view class="title">李荣臻Love</view>
+                <view class="sup-title">总粉丝 239.3w</view>
+            </view>
+            <view class="collection-right">
+                <view class="kol">KOL</view>
+                <view class="more">></view>
+            </view>
+        </view>
+        <view class="collection-item">
+            <image class="collection-img" src="../../../assets/img/photo1.png" />
+            <view class="collection-title">
+                <view class="title">李荣臻Love</view>
+                <view class="sup-title">总粉丝 239.3w</view>
+            </view>
+            <view class="collection-right">
+                <view class="kol">KOL</view>
+                <view class="more">></view>
+            </view>
+        </view>
+    </view>
+    <view class="center-foot">
+        <foot></foot>
+    </view>
+</view>

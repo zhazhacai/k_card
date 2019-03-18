@@ -1,0 +1,42 @@
+.danceListsBox image {
+    width: 124rpx;
+    height: 124rpx;
+}
+
+.danceListsBox .list-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30rpx;
+    margin-bottom: 35rpx;
+}
+.danceListsBox .list-item .fansBox{
+    margin-left: -130rpx;
+}
+
+.danceListsBox .list-item .imgBox,
+.danceListsBox .list-item .contact {
+    width: 124rpx;
+    height: 124rpx;
+    line-height: 124rpx;
+}
+
+.contact {
+    text-align: right;
+}
+.contact view {
+    display: inline-block;
+    width: 124rpx;
+    height: 56rpx;
+    line-height: 56rpx;
+    border-radius: 28rpx;
+    text-align: center;
+    background: #92C93B;
+}
+
+
+.danceListsBox .list-item .infoview {
+    height: 62rpx;
+    line-height: 62rpx;
+}
+
+/*  */

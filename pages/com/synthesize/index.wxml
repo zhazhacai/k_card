@@ -1,0 +1,49 @@
+<div class="com-page">
+
+    <view class="com-head">
+        <image class="img1" src="./../../../assets/img/comslices/Bitmap.png" />
+        <image class="img2" src="./../../../assets/img/comslices/Group.png" />
+        <image class="img3" src="./../../../assets/img/comslices/text.png" />
+        <image class="img4" src="./../../../assets/img/comslices/text2.png" />
+        <view class="swiper-tab" wx:if="{{currentTab == 0}}">
+            <view class="swiper-tab-item {{infoTab==0?'active':''}}" data-current="0" bindtap="clickInfoTab">综合</view>
+            <view class="swiper-tab-item {{infoTab==1?'active':''}}" data-current="1" bindtap="clickInfoTab">颜值</view>
+            <view class="swiper-tab-item {{infoTab==2?'active':''}}" data-current="2" bindtap="clickInfoTab">舞蹈</view>
+            <view class="swiper-tab-item {{infoTab==3?'active':''}}" data-current="3" bindtap="clickInfoTab">美妆</view>
+        </view>
+        <view class="swiper-tab" wx:else>
+            <view style="color:#fff">我的</view>
+        </view>
+    </view>
+    <view class="container {{infoTab == 0?'':'container1'}}" wx:if="{{currentTab == 0}}">
+        <swiper current="{{infoTab}}" duration="300" bindchange="swiperTab">
+            <swiper-item>
+                <SynPage list="{{list}}"></SynPage>
+            </swiper-item>
+            <swiper-item>
+                <FacePage Flist="{{Flist}}"></FacePage>
+            </swiper-item>
+            <swiper-item>
+                <DancePage Flist="{{Flist}}"></DancePage>
+            </swiper-item>
+            <swiper-item>
+                <BeautyPage Flist="{{Flist}}"></BeautyPage>
+            </swiper-item>
+        </swiper>
+
+    </view>
+    <view class="container myBox" wx:else> 
+        <ul>
+            <li>立即注入</li>
+            <li>数据服务</li>
+            <li>发布需求</li>
+        </ul>
+    </view>
+
+    <view class="com-foot">
+        <view class="swiper-tab">
+            <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">推荐</view>
+            <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">我的</view>
+        </view>
+    </view>
+</div>

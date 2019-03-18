@@ -1,0 +1,17 @@
+<view style="display: flex;flex-direction: column;height: 100%;">
+    <head user="{{user.name}}" title="{{title}}"></head>
+    <view class="container">
+        <view class="vip">VIP特权</view>
+        <view class="text">
+            <view>• 您可以使用招募功能，快速、准确、批量地招募到适合您的KOL</view>
+            <view>• 专属K管家为您提供1对1服务</view>
+            <view>• KCard高级功能优先使用</view>
+        </view>
+    
+        <view class="vip">如何成为VIP</view>
+        <view class="text bottom-text">您需要先完善品牌信息，然后在本页面点击申请。稍后会有K管家联系您</view>
+        
+        <view class="bottom-button next">立即申请</view>
+    </view>
+    <foot></foot>
+</view>

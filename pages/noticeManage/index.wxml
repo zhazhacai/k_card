@@ -1,0 +1,28 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="tab-box">
+        <text class="tab-box-title">LEPOMROOM博主招募</text>
+        <view class="tab-box-titleBottomBorder"></view>
+        <view class="tab-box-content">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        <view class="chose">
+            <view class="status">已报名</view>
+            <view class="chose-box">
+                <view class="reject btn">拒绝</view>
+                <view class="approve btn">接受</view>
+            </view>
+        </view>
+    </view>
+    <view class="tab-box">
+        <text class="tab-box-title">LEPOMROOM博主招募</text>
+        <view class="tab-box-titleBottomBorder"></view>
+        <view class="tab-box-content">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        <view class="chose">
+            <view class="status">已拒绝</view>
+            <view class="chose-box">
+                <view class="reject btn">拒绝</view>
+                <view class="approve btn">接受</view>
+            </view>
+        </view>
+    </view>
+</view>
+<foot></foot>

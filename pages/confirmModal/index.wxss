@@ -1,0 +1,78 @@
+/* 
+    confirm style
+*/
+
+/* 添加抖音URL */
+
+checkbox .wx-checkbox-input{
+    border:1px solid rgb(22,22,22);
+    border-radius: 50%;/* 圆角 */
+    width: 28rpx; /* 背景的宽 */
+    height: 28rpx; /* 背景的高 */
+ }
+ /* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+    border-radius: 50%;/* 圆角 */
+    width: 20rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+    height: 20rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+    background: #000;
+    font-size: 0;
+ }
+
+ .header_img {
+    width: 48rpx;
+    height: 48rpx;
+    margin-right: 16rpx;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.input_view {
+    border-bottom:1px solid rgba(151, 151, 151, 0.41);
+    font-size:32rpx;
+    padding-bottom:40rpx;
+}
+
+.config {
+    font-weight:500;
+    font-size: 14px;
+    margin-top: 32rpx;
+}
+
+.config .config_text {
+    display: inline-block;
+    margin-left: 12rpx;
+}
+
+.help_you {
+    font-size:10px;
+    color:rgba(40,40,40,.5);
+    padding-left: 54rpx;
+    margin-top: 6rpx;
+}
+
+.confirm_btn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.confirm_btn--yes {
+    margin-left: 80rpx;
+    color: #FA3C8A;
+}
+
+.confirm_btn--no {
+    color:rgba(40,40,40,.4);
+}
+
+/* 招募功能介绍 */
+
+.recruit {
+    font-size: 16px;
+    color:rgba(0,0,0,.3);
+}

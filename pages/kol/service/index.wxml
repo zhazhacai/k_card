@@ -1,0 +1,28 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+  <view wx:for="{{list}}">
+    <view class="item">
+      <view class="type">
+        <picker bindchange="change" data-name="type" data-index="{{index}}" range="{{type}}" value="{{item.type}}">
+          <view class="sex-select">{{type[item.type]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <textarea class="brief" bindinput="change" data-name="desc" data-index="{{index}}" value="{{item.desc}}" placeholder="服务简介" placeholder-class="item-tip" />
+    </view>
+    <view class="item">
+      <input class="price" bindchange="change" data-name="price" data-index="{{index}}" value="{{item.price}}"  placeholder="价格（如不填写则展示“未公开”）" placeholder-class="item-tip" />
+    </view>
+  </view>
+  <view class="add-more" bindtap="add">
+    <text class="add-sign">+</text>继续添加
+  </view>
+  <view class="protocol">
+    <label class="checkbox">
+      <checkbox checked="{{agree}}" bindtap="doAgree" class="agree" />同意KCard平台入驻协议
+    </label>
+  </view>
+  <view class="bottom-button" bindtap="submit">完成</view>
+</view>
+<foot></foot>

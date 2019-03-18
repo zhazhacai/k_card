@@ -1,0 +1,17 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="title">全网粉丝量</view>
+    <view class="amount">348.3w</view>
+    <view class="item-container">
+        <view class="item">
+            <image src="../../assets/img/douyin.png" />
+            <text class="name">抖音</text>
+            <text class="url">28.3w</text>
+        </view>
+        <view class="item">
+            <image src="../../assets/img/douyin.png" />
+            <text class="name">抖音</text>
+            <text class="url">28.3w</text>
+        </view>
+    </view>
+</view>

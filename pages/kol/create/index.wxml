@@ -1,0 +1,20 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="item" bindtap="openSet">
+        <image src="../../../assets/img/douyin.png" />
+        <text class="name">抖音</text>
+        <text class="url">编辑</text>
+        <text class="main">主平台</text>
+    </view>
+    <!-- <view class="item">
+        <image src="../../../assets/img/douyin.png" />
+        <text class="name">哔哩哔哩</text>
+        <text class="url">编辑</text>
+        <text class="main">主平台</text>
+    </view> -->
+</view>
+<view class="btn-box">
+    <view class="skip">跳过</view>
+    <button open-type="getUserInfo" bindgetuserinfo="submit" data-url="/pages/kol/consummate/index" class="next">下一步</button>
+</view>
+<foot></foot>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "head": "/components/kol-head/head",
+    "foot": "/components/kol-foot/foot"
+  }
+}

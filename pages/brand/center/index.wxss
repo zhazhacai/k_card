@@ -1,0 +1,56 @@
+.center-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.item {
+    margin-top: 120rpx;
+    overflow: hidden;
+    position: relative;
+}
+
+.item view {
+    float: left;
+}
+
+.icon {
+    margin-right: 50rpx;
+}
+
+.text {
+    font-size: 32rpx;
+    color: RGBA(40, 40, 40, 1);
+}
+
+.square {
+    width: 36rpx;
+    height: 32rpx;
+    background-color: RGBA(250, 59, 138, 1);
+    border-radius: 4rpx;
+    margin-top: 8rpx;
+}
+
+.circle {
+    height: 40rpx;
+    width: 40rpx;
+    background-color: RGBA(128, 40, 252, 1);
+    border-radius: 40rpx;
+    margin-top: 6rpx;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-top: 0;
+    border-right: 21rpx solid rgba(0, 0, 0, 0);
+    border-bottom: 38rpx solid RGBA(38, 194, 136, 1);
+    border-left: 21rpx solid rgba(0, 0, 0, 0);
+    margin-top: 6rpx;
+}

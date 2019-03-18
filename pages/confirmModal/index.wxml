@@ -1,0 +1,92 @@
+<!--  TODO  -->
+<!-- style="overflow-y: {{showModal?'hidden':'scroll'}}" -->
+<!-- fiexd 底层内容 overflow-y需要加在page标签上，此处目前不生效，待优化 -->
+<button bindtap="clickMe1">Modal--添加抖音URL</button><br />
+<button bindtap="clickMe2">Modal--招募功能介绍</button><br />
+<button bindtap="clickMe3">Modal--您的KCard已经存在</button><br />
+<button bindtap="clickMe4">Modal--请至少关联1个主平台</button><br />
+<foot></foot>
+<confirm wx:if="{{showModal1}}">
+    <view slot="header">
+        <view class="header-content">
+            <image class="header_img" src="../../assets/img/douyin.png" />
+            添加抖音URL
+        </view>
+
+    </view>
+    <view slot="body">
+        <view class="input_view">
+            <input placeholder-class="tip-color" placeholder="个人主页URL" />
+        </view>
+        <view class="config">
+            <label>
+                <checkbox value="{{index}}" checked></checkbox>
+                <view class="config_text">设为主平台</view>
+            </label>
+        </view>
+        <view class="help_you">工作人员会帮助您上传该平台视频至KCard中</view>
+    </view>
+    <view slot="footer">
+        <view class="confirm_btn">
+            <view class="confirm_btn--yes" bindtap="clickMe1" >确认</view>
+            <view class="confirm_btn--no"  bindtap="clickMe1">取消</view>
+        </view>
+    </view>
+</confirm>
+
+<confirm wx:if="{{showModal2}}">
+    <view slot="header">
+        <view class="header-content">
+            招募功能介绍
+        </view>
+
+    </view>
+    <view slot="body">
+        <view class="recruit">
+            招募功能为VIP品牌主专属功能，通过招募功能，您可以快速、准确、批量地招募到适合您的KOL。
+        </view>
+    </view>
+    <view slot="footer">
+        <view class="confirm_btn">
+            <view class="confirm_btn--yes"  bindtap="clickMe2">立即申请</view>
+        </view>
+    </view>
+</confirm>
+
+<confirm wx:if="{{showModal3}}">
+        <view slot="header">
+            <view class="header-content">
+                    您的KCard已经存在
+            </view>
+    
+        </view>
+        <view slot="body">
+            <view class="recruit">
+                    如有疑问，请联系客服。
+            </view>
+        </view>
+        <view slot="footer">
+            <view class="confirm_btn">
+                <view class="confirm_btn--yes"  bindtap="clickMe3">立即咨询</view>
+            </view>
+        </view>
+    </confirm>
+
+<confirm wx:if="{{showModal4}}">
+        <view slot="header">
+            <view class="header-content">
+                    请至少关联1个主平台
+            </view>
+    
+        </view>
+        <view slot="body">
+            <view class="recruit">
+                    
+            </view>
+        </view>
+        <view slot="footer">
+            <view class="confirm_btn">
+                <view class="confirm_btn--yes" bindtap="clickMe4">确定</view>
+            </view>
+        </view>
+    </confirm>

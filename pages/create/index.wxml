@@ -1,0 +1,36 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+  <view class="chose-list">
+    <button open-type="getPhoneNumber" data-url='/pages/kol/create/index' bindgetphonenumber="goto" class="item kol">
+      <view class="item-back">
+        <view class="back-text">KOL</view>
+        <view class="back-foot">
+          <text class="back-brand">KCard</text>
+          <text class="back-explain">你的超级名片</text>
+        </view>
+      </view>
+      <view class="name">我是KOL</view>
+    </button>
+    <button open-type="getPhoneNumber" data-url="/pages/brand/create/index" bindgetphonenumber="goto" class="item brand">
+      <view class="item-back">
+        <view class="back-text">BRAND</view>
+        <view class="back-foot">
+          <text class="back-brand">KCard</text>
+          <text class="back-explain">你的超级名片</text>
+        </view>
+      </view>
+      <view class="name">我是品牌主</view>
+    </button>
+    <button open-type="getPhoneNumber" data-url="/pages/mcn/create/index" bindgetphonenumber="goto" class="item mcn">
+      <view class="item-back">
+        <view class="back-text">MCN</view>
+        <view class="back-foot">
+          <text class="back-brand">KCard</text>
+          <text class="back-explain">你的超级名片</text>
+        </view>
+      </view>
+      <view class="name">我是机构</view>
+    </button>
+  </view>
+</view>
+<foot></foot>

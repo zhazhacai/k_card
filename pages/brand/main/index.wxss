@@ -1,0 +1,82 @@
+
+.main-title-a {
+    margin-top: 22rpx;
+    padding-bottom: 44rpx;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.service-text {
+    margin-top: 34rpx;
+    font-size:13px;
+    line-height: 21px;
+    color: rgba(40,40,40,.7);
+}
+
+.main-title-b {
+    margin-top: 40rpx;
+    padding-bottom: 72rpx;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.black-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52rpx;
+}
+
+.heiren {
+    width: 180rpx;
+    height: 260rpx;
+}
+
+.heiren-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.heiren-more image {
+    width: 180rpx;
+}
+.more-top {
+    height: 128rpx;
+}
+.more-bottom {
+    height: 112rpx;
+}
+.demand {
+    margin-top: 56rpx;
+    padding: 40rpx 48rpx 50rpx;
+    border:1px solid rgba(151,151,151,.3);
+    border-radius: 8rpx;
+}
+.demand-title {
+    position: relative;
+    font-size: 16px;
+    color: #282828;
+}
+
+.demand-title::after {
+    position: absolute;
+    left: 0;
+    bottom: -12rpx;
+    content: '';
+    width: 52rpx;
+    height: 6rpx;
+    background: #8028FC;
+}
+.demand-text {
+    font-size: 13px;
+    color:rgba(40,40,40,.7);
+    margin-top: 50rpx;
+}
+.demand-order {
+    margin-top: 50rpx;
+    font-size: 13px;
+    color: #282828;
+}
+.demand-count {
+    display: inline-block;
+    color: #8028FC;
+}

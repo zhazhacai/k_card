@@ -1,0 +1,20 @@
+<view class="kcard" style=" background:  linear-gradient({{bg[0]}} 0%,{{bg[1]}} 20%, {{bg[2]}} 35%);">
+    <view class="kcard-head">
+        <view class="head-left">
+            KCard
+        </view>
+        <view class="flex head-right">
+            编辑
+            <view class="division">|</view>
+            分享
+        </view>
+    </view>
+    <view class="kcard-main">
+        <image src="../../assets/img/kolhead.png" class="main-bg" />
+        <view class="notice-content">
+            <slot name="main"></slot>
+        </view>
+        <foot></foot>
+    </view>
+    <slot name="bottom"></slot>
+</view>

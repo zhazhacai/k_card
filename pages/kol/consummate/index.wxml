@@ -1,0 +1,95 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+  <view class="photo-title">头像</view>
+  <view class="photo" bindtap="changeUserImg">
+    <image src="{{card.avatar}}"></image>
+    <text class="photo-button">编辑</text>
+  </view>
+  <view class="sex item">
+    <picker bindchange="cardChange" value="{{card.gender}}" range="{{sexs}}" data-name="gender" bindchange="cardChange"
+      value="{{card.nickname}}">
+      <view class="picker select">
+        <view>{{sexs[card.gender]}}</view>
+        <view class="iconfont icon-huaban"></view>
+      </view>
+    </picker>
+  </view>
+  <view class="item">
+    <input class="nick-name" placeholder="请输入个人昵称" data-name="nickname" bindchange="cardChange" value="{{card.nickname}}" />
+  </view>
+  <view class="item">
+    <textarea placeholder="请输入个人介绍" auto-height data-name="desc" bindchange="cardChange" value="{{card.desc}}"></textarea>
+  </view>
+  <view class="item" bindtap='select'>
+    <!-- <view class="city">
+      <picker mode="region" bindchange="bindCity" value="{{[card.province,card.city,card.country]}}" custom-item="全部">
+        <view class="picker select">
+          <view>{{region[0]}} {{region[1]}} {{region[2]}}</view>
+          <view class="iconfont icon-huaban"></view>
+        </view>
+      </picker>
+    </view> -->
+    <view class="picker-view--wrapper" style="visibility:{{addressMenuIsShow ? 'visible':'hidden'}}">
+      <view class="picker-view" animation="{{animationAddressMenu}}">
+        <!-- 确认取消按钮 -->
+        <view class='btn'>
+          <text catchtap="cityCancel">取消</text>
+          <text style="float: right" catchtap="citySure">确定</text>
+        </view>
+        <!-- 选择地址 -->
+        <picker-view class='cont' bindchange="cityChange" value="{{value}}" wx:key="">
+          <!-- 省 -->
+          <picker-view-column>
+            <view wx:for="{{provinces}}" class="picker-item" wx:key="{{index}}">{{item.name}}</view>
+          </picker-view-column>
+          <!-- 市 -->
+          <picker-view-column>
+            <view wx:for="{{citys}}" class="picker-item" wx:key="index">{{item.name}}</view>
+          </picker-view-column>
+          <!-- 区 -->
+          <picker-view-column>
+            <view wx:for="{{areas}}" class="picker-item" wx:key="index">{{item.name||''}}</view>
+          </picker-view-column>
+        </picker-view>
+      </view>
+    </view>
+    <view   class='address'>{{areaInfo||'选择城市'}}</view>
+    <view style="display: inline-block; float: right;" class="iconfont icon-huaban"></view>
+  </view>
+  <view class="item">
+    <view class="weixin">
+      <input placeholder-class="tip-color" placeholder="微信账号" data-name="wechat" bindchange="cardChange" value="{{card.wechat}}" />
+    </view>
+  </view>
+  <view class="sex item">
+    <picker bindchange="cardChange" range="{{mainTags}}" data-name="tag" bindchange="cardChange" value="{{card.tag}}">
+      <view class="picker select">
+        <view>{{mainTags[card.tag]}}</view>
+        <view  class="iconfont icon-huaban"></view>
+      </view>
+    </picker>
+  </view>
+  <view class="sex item">
+    <picker bindchange="cardChange" range="{{tags}}" data-name="tags" bindchange="cardChange" value="{{card.tags}}">
+      <view class="picker select">
+        <view>{{tags[card.tags]}}</view>
+        <view class="iconfont icon-huaban"></view>
+      </view>
+    </picker>
+  </view>
+  <view class="upqr">
+    <view class="qr-title">店铺二维码（选填）</view>
+    <upload data-name="qr" bindchange="cardChange" value="{{card.qr}}" />
+  </view>
+  <view class="pic-list">
+    <view class="pic-title">图片列表（2/10）</view>
+    <upload data-name="pic" bindchange="cardChange" value="{{card.pics}}" />
+  </view>
+  <view class="video-list">
+    <view class="video-title">视频列表 (0/50)</view>
+    <view class="video-explain">同步您在抖音上传的无水印视频至KCard中进行管理与展示</view>
+    <video-upload data-name="videos" bindchange="cardChange" value="{{card.videos}}" />
+  </view>
+  <view class="bottom-button next" bindtap="submit">下一步</view>
+</view>
+<foot></foot>

@@ -1,0 +1,6 @@
+<view class="profile-name-es" style="color:{{title_style[1]}}">
+    {{title_en}}
+</view>
+<view class="profile-name-cn" style="color:{{title_style[0]}}">
+    {{title_zh}}
+</view>

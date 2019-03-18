@@ -1,0 +1,19 @@
+<view class="nav-foot">
+    <view class="item" >
+        <!-- <navigator url="/pages/kol/notice/notice"> -->
+            <view class="nav" catchtap="redirectTo" id="d1" >
+                <image src="../../assets/img/KCardfoot.png" />
+            </view>
+        <!-- </navigator> -->
+    </view>
+    <view class="item" >
+        <!-- <navigator url="/pages/brand/notice/index"> -->
+            <text class="nav" catchtap="redirectTo" id="d2">通告</text>
+        <!-- </navigator> -->
+    </view>
+    <view class="item" >
+        <!-- <navigator url="/pages/brand/center/index"> -->
+            <text class="nav" catchtap="redirectTo" id="d3">我的</text>
+        <!-- </navigator> -->
+    </view>
+</view>

@@ -1,0 +1,29 @@
+.kol-foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.kol-foot image{
+    width: 100%;
+    z-index: -1;
+    display: block
+}
+.foot-explain{
+    padding: 0 48rpx;
+}
+.foot-explain image{
+    float: left;
+    width:85rpx;
+    height:20rpx;    
+}
+.foot-explain text{
+    float: left;
+    color: RGBA(52, 52, 52, 1);
+    font-size: 20rpx;
+    height: 20rpx;
+    line-height: 20rpx;
+    border-left: 2rpx solid RGBA(52, 52, 52, 0.4);
+    margin-left: 10rpx;
+    padding-left: 10rpx;
+}

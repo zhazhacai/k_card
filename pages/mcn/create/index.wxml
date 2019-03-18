@@ -1,0 +1,27 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="photo-title">MCN头像</view>
+    <view class="photo">
+        <view class="video-button">+</view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="MCN名称" />
+        </view>
+    </view>
+    <view class="item">
+        <textarea class="brief" value="" placeholder="简介" placeholder-class="item-tip"></textarea>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="浙江 杭州" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="链接（选填）" />
+        </view>
+    </view>
+    <view class="bottom-button next">申请认证</view>
+</view>
+<foot></foot>

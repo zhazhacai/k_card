@@ -1,0 +1,4 @@
+<view class="pic-container">
+  <image wx:for="{{list}}" src="{{item}}" wx:key="index"></image>
+  <view class="pic-button" bindtap="up">+</view>
+</view>

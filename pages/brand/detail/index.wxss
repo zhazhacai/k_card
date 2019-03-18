@@ -1,0 +1,124 @@
+.detail-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.detail-date {
+    position: relative;
+    font-size: 16px;
+    color: #282828;
+    padding: 0 48rpx;
+}
+
+.detail-date::after {
+    position: absolute;
+    left: 48rpx;
+    bottom: -44rpx;
+    content: '';
+    width: 52rpx;
+    height: 6rpx;
+    background: #8028FC;
+}
+
+.text-item {
+    margin-top: 48rpx;
+}
+.item-first {
+    margin-top: 92rpx;
+}
+
+.text-item .title {
+    color: #282828;
+    font-size: 14px;
+}
+.text-item .sup-title {
+    color: rgba(40,40,40,.7);
+    margin-top: 12rpx;
+    font-size: 12px;
+}
+.container {
+    flex-grow: 1;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    padding: 40rpx 0;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.collection-img {
+    width: 96rpx;
+    height: 96rpx;
+}
+
+.collection-title {
+    flex-grow: 1;
+    margin-left: 28rpx;
+}
+
+.collection-title .title {
+    font-size: 16px;
+    color: #282828;
+}
+
+.collection-title .sup-title {
+    font-size: 12px;
+    color: rgba(40,40,40,.7);
+    margin-top: 4rpx;
+}
+
+.collection-right {
+    display: flex;
+    align-items: center;
+}
+
+.collection-right .bt {
+    width:120rpx;
+    height:56rpx;
+    line-height: 56rpx;
+    text-align: center;
+    border-radius:14px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.collection-right .no {
+    background:rgba(255,54,54,1);
+    margin-right: 16rpx;
+}
+
+.collection-right .yes {
+    background:rgba(50,205,120,1);
+}
+
+.ordered {
+    font-size: 14px;
+    color: #282828;
+    margin-top: 48rpx;
+}
+
+.btn-group {
+    height: 100rpx;
+    margin-top: 42rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.group {
+    height:100%;
+    line-height: 100rpx;
+    text-align: center;
+    background:linear-gradient(to right, rgba(143,48,252,1),rgba(58,0,255,1) 100%);
+    border-radius:25px;
+}
+.group-l {
+    flex-grow: 1;
+    margin-right: 18rpx;
+}
+
+.group-r {
+    width: 256rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "kit": "/components/kol-kit/kol-kit",
+    "personal": "/components/kol-personal/kol-personal",
+    "foot": "/components/kol-foot/foot",
+    "caption": "/components/kol-caption/kol-caption"
+  }
+}

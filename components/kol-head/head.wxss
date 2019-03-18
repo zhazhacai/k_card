@@ -1,0 +1,34 @@
+.kol-head {
+    position: relative;
+}
+
+.kol-head image {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.kol-head-content {
+    position: absolute;
+    z-index: 1;
+    top: 40rpx;
+    left: 48rpx;
+}
+
+.user {
+    color: #a2979d;
+    font-size: 30rpx;
+    height: 40rpx;
+}
+
+.title {
+    font-size: 50rpx;
+    font-weight: 600;
+}
+
+.time {
+    font-size: 32rpx;
+    color: #282828;
+    margin-top: 10rpx;
+    padding-left: 24rpx;
+}

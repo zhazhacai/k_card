@@ -1,0 +1,175 @@
+<kit bg="{{color}}">
+    <view slot="main">
+        <image src="../../../assets/img/kolhead.png" class="main-bg" />
+        <view class="notice-content">
+            <view class="notice-info">
+                <view class="notice-portrait">
+                    <image class="notic-portrait-info" src="../../../assets/img/photo1.png" />
+                </view>
+                <view class="notice-info-person">
+                    <view class="notice-info-top">
+                        <view class="notice-nike">超可爱的小可汗</view>
+                        <view class="notice-address sub-text">上海 杭州</view>
+                    </view>
+                    <view class="notice-wechat sub-text">
+                        <image class="notice-wechat-img" src="../../../assets/img/wechat.png " />
+                        Khan239
+                    </view>
+                </view>
+            </view>
+            <view class="p-profile">
+                <view class="profile-name-es">
+                    profile
+                </view>
+                <view class="profile-name-cn">
+                    个人简介
+                </view>
+                <view class="sub-text-preson dec-a">头条年度盛典抖音达人 </view>
+                <view class="sub-text-preson">微博 吴佳怡大女神</view>
+                <view class="sub-text-preson">你必须很努力 才能看上去毫不费力</view>
+                <view class="profile-tag">
+                    <button size="mini" type="warn" class="profile-active">电商</button>
+                    <button size="mini" type="default">美妆</button>
+                    <button size="mini" type="default">女装</button>
+                    <button size="mini" type="default">旅游</button>
+                </view>
+            </view>
+            <view class="notice-fans">
+                <view class="all-fans">全网粉丝量</view>
+                <view class="fans-count">348.3w</view>
+                <view class="notice-chat">
+                    <view class="chat-item">
+                        <image src="../../../assets/img/douyin.png" class="douyin-bg" />
+                        78.6w
+                    </view>
+                    <view class="chat-item">
+                        <image src="../../../assets/img/bilibili.png" class="douyin-bg" />
+                        42.7w
+                    </view>
+                    <view class="chat-item">
+                        <image src="../../../assets/img/douyu.png" class="douyin-bg" />
+                        68.9w
+                    </view>
+                    <view class="three-piont">
+                        ···
+                    </view>
+                </view>
+            </view>
+            <view class="notice-store">
+                <view class="store-homepage">店铺主页</view>
+                <view class="store-detail">></view>
+            </view>
+
+            <view class="videos">
+                <view class="profile-name-es">
+                    videos
+                </view>
+                <view class="profile-name-cn">
+                    视频列表
+                </view>
+
+                <view class="videos-list">
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/redCard.png" class="videos-bg" />
+                    </view>
+                </view>
+
+            </view>
+
+            <view class="image-area videos">
+                <view class="profile-name-es">
+                    pictures
+                </view>
+                <view class="profile-name-cn">
+                    图片列表
+                </view>
+
+                <view class="image-list">
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                    <view class="videos-item">
+                        <image src="../../../assets/img/girl3.png" class="videos-bg" />
+                    </view>
+                </view>
+
+            </view>
+
+            <view class="company-preson">
+                <image src="../../../assets/img/tree.png" class="tree-img" />
+                <view class="MCN-detail">
+                    <view class="k-title">所属MCN</view>
+                    <view class="k-sup-title">杭州小树文化传媒</view>
+                </view>
+                <view class="kol-more">
+                    <view class="kol">35 KOL</view>
+                    <view class="more">></view>
+                </view>
+            </view>
+
+            <view class="service-intro">
+                <view class="profile-name-es">
+                    SERVICE
+                </view>
+                <view class="profile-name-cn">
+                    服务介绍
+                </view>
+                <view class="service">
+                    <view class="service-top">
+                        <view class="top-left">01</view>
+                        <view class="top-center">
+                            <view class="k-title">服务类型</view>
+                            <view class="k-sup-title">短视频营销</view>
+                        </view>
+                        <view class="service-price">
+                            1999
+                            <view class="danwei">元/条</view>
+                        </view>
+                    </view>
+                    <view class="service-text">
+                        在抖音年度盛典中植入美妆广告，引导购物当日销售额增长200%，达到1000万，产出比高达400%。在抖音年度盛典中植入美妆广告，引导购物当日销售额增长200%，达到1000万，产出比高达400%。
+                    </view>
+                </view>
+
+                <view class="service">
+                    <view class="service-top">
+                        <view class="top-left">02</view>
+                        <view class="top-center">
+                            <view class="k-title">服务类型</view>
+                            <view class="k-sup-title">短视频营销</view>
+                        </view>
+                        <view class="service-price">
+                            未公开
+                        </view>
+                    </view>
+                    <view class="service-text">
+                        在抖音年度盛典中植入美妆广告，引导购物当日销售额增长200%，达到1000万，产出比高达400%。在抖音年度盛典中植入美妆广告，引导购物当日销售额增长200%，达到1000万，产出比高达400%。
+                    </view>
+                </view>
+            </view>
+
+        </view>
+        <view class="footer-kcard">
+            <foot></foot>
+        </view>
+    </view>
+</kit>
+<tabbar></tabbar>

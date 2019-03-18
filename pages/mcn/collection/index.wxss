@@ -1,0 +1,56 @@
+.center-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    padding: 40rpx 0;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.collection-img {
+    width: 96rpx;
+    height: 96rpx;
+}
+
+.collection-title {
+    flex-grow: 1;
+    margin-left: 28rpx;
+}
+
+.collection-title .title {
+    font-size: 16px;
+    color: #282828;
+}
+
+.collection-title .sup-title {
+    font-size: 12px;
+    color: rgba(40,40,40,.7);
+    margin-top: 4rpx;
+}
+
+.collection-right {
+    display: flex;
+    align-items: center;
+}
+
+.collection-right .kol {
+    display: inline-block;
+    font-size: 10px;
+    color: #fff;
+    padding: 2rpx 4rpx;
+    background: #FA3B8A;
+}
+
+.collection-right .more {
+    font-size: 14px;
+    color: rgba(151, 151, 151, .3);
+    margin-left: 36rpx;
+}

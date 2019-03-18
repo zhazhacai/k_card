@@ -1,0 +1,15 @@
+<view class="notice-info">
+                <view class="notice-portrait">
+                    <image class="notic-portrait-info" src="../../assets/img/photo1.png" />
+                </view>
+                <view class="notice-info-person">
+                    <view class="notice-info-top">
+                        <view class="notice-nike">{{info.name}}</view>
+                        <view class="notice-address sub-text">{{info.address}}</view>
+                    </view>
+                    <view class="notice-wechat sub-text">
+                        <image class="notice-wechat-img" src="../../assets/img/wechat.png " />
+                        {{info.wechat}}
+                    </view>
+                </view>
+            </view>

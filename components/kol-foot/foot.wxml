@@ -1,0 +1,7 @@
+<view class="kol-foot">
+  <view class="foot-explain">
+    <image src="../../assets/img/KCard.svg" />
+    <text>你的超级名片</text>
+  </view>
+  <image src="../../assets/img/kolfoot.png" mode="widthFix" />
+</view>

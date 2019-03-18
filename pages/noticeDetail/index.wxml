@@ -1,0 +1,18 @@
+<head user="{{user.name}}" title="{{title}}" time="{{time}}"></head>
+<view class="container">
+    <view class="title-block"></view>
+    <view class="clear"></view>
+    <view class="activity-title">
+        <image src="../../assets/img/douyin.png"></image>
+        <text class="brand-name">耐克Nike</text>
+        <text class="brand-arrow">></text>
+    </view>
+    <view class="activity-content">
+        <view class="item">
+            <view class="item-title">通告描述</view>
+            <view class="item-content">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        </view>
+    </view>
+    <view class="signBtn">已报名</view>
+</view>
+<foot></foot>

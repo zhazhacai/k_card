@@ -1,0 +1,217 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wxa50a5d4e959608eb",
+	"projectname": "K",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 28,
+			"list": [
+				{
+					"id": -1,
+					"name": "通知管理",
+					"pathName": "pages/noticeManage/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "通知详情",
+					"pathName": "pages/noticeDetail/index",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "通知列表",
+					"pathName": "pages/announce/index",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "vip申请",
+					"pathName": "pages/brand/beVip/index",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "发布通告",
+					"pathName": "pages/brand/publish/index",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "发布通告细节",
+					"pathName": "pages/brand/detail/index",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "通告管理",
+					"pathName": "pages/brand/notice/index",
+					"query": ""
+				},
+				{
+					"id": 7,
+					"name": "个人中心",
+					"pathName": "pages/brand/center/index",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "品牌kcard",
+					"pathName": "pages/brand/main/index",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "品牌主申请",
+					"pathName": "pages/brand/examin/index",
+					"query": ""
+				},
+				{
+					"id": 10,
+					"name": "品牌主信息完善",
+					"pathName": "pages/brand/create/index",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "kol收藏夹",
+					"pathName": "pages/mcn/collection/index",
+					"query": ""
+				},
+				{
+					"id": 12,
+					"name": "等待机构审核",
+					"pathName": "pages/mcn/examin/index",
+					"query": ""
+				},
+				{
+					"id": 13,
+					"name": "mcn-kcard",
+					"pathName": "pages/mcn/main/index",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "个人信息",
+					"pathName": "pages/kol/notice/notice",
+					"query": ""
+				},
+				{
+					"id": 15,
+					"name": "个人等待审核结果",
+					"pathName": "pages/kol/examining/index",
+					"query": ""
+				},
+				{
+					"id": 16,
+					"name": "个人平台列表",
+					"pathName": "pages/kol/create/index",
+					"query": ""
+				},
+				{
+					"id": 17,
+					"name": "个人服务添加",
+					"pathName": "pages/kol/service/index",
+					"query": ""
+				},
+				{
+					"id": 18,
+					"name": "完善个人信息",
+					"pathName": "pages/kol/consummate/index",
+					"query": ""
+				},
+				{
+					"id": 19,
+					"name": "个人信息管理列表",
+					"pathName": "pages/personalCenter/index",
+					"query": ""
+				},
+				{
+					"id": 20,
+					"name": "个人粉丝",
+					"pathName": "pages/platformDetail/index",
+					"query": ""
+				},
+				{
+					"id": 21,
+					"name": "主页",
+					"pathName": "pages/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "main-1",
+					"pathName": "pages/mcn/main-1/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "main-2",
+					"pathName": "pages/mcn/main-2/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "main-3",
+					"pathName": "pages/mcn/main-3/index",
+					"query": ""
+				},
+				{
+					"id": 25,
+					"name": "main-4",
+					"pathName": "pages/mcn/main-4/index",
+					"query": ""
+				},
+				{
+					"id": 26,
+					"name": "examinFail",
+					"pathName": "pages/brand/examinFail/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "创建角色",
+					"pathName": "pages/create/index",
+					"query": ""
+				},
+				{
+					"id": -2,
+					"name": "添加机构",
+					"pathName": "pages/mcn/create/index",
+					"query": ""
+				},
+				{
+					"id": -3,
+					"name": "Modal",
+					"pathName": "pages/confirmModal/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

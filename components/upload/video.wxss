@@ -1,0 +1,25 @@
+.pic-container{
+  overflow: hidden;
+  padding: 20rpx 0;
+  margin-right: -40px;
+}
+
+.qr-title{
+  margin-bottom: 40rpx;
+}
+
+.qr-button,
+.pic-button,
+.pic-container image {
+  width: 128rpx;
+  height: 208rpx;
+  background-color: rgba(216, 216, 216, 0.4);
+  color: rgba(216, 216, 216, 1);
+  line-height: 208rpx;
+  text-align: center;
+  font-size: 48rpx;
+  border-radius: 8rpx;
+  float: left;
+  margin: 20rpx 36rpx 20rpx 0;
+  vertical-align: top
+}

@@ -1,0 +1,15 @@
+<view class="center-page">
+    <head user="{{user.name}}" title="通告管理"></head>
+    <view class="container">
+        <view class="publish">发布通告</view>
+        <view class="demand">
+                <view class="demand-title">LEPOMROOM博主招募</view>
+                <view class="demand-text">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+                <view class="demand-order">已有<view class="demand-count">18</view>人报名</view>
+              </view>
+    </view>
+    <view class="center-foot">
+        <foot></foot>
+    </view>
+</view>
+<tabbar></tabbar>

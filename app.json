@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/kol/notice/notice",
+    "pages/create/index",
+    "pages/mcn/main-1/index",
+    "pages/mcn/create/index",
+    "pages/mcn/center/index",
+    "pages/mcn/collection/index",
+    "pages/mcn/examin/index",
+    "pages/kol/create/index",
+    "pages/personalCenter/index",
+    "pages/home/home",
+    "pages/announce/index",
+    "pages/noticeDetail/index",
+    "pages/noticeManage/index",
+    "pages/brand/create/index",
+    "pages/brand/beVip/index",
+    "pages/brand/publish/index",
+    "pages/brand/detail/index",
+    "pages/brand/notice/index",
+    "pages/brand/center/index",
+    "pages/brand/main/index",
+    "pages/brand/examin/index",
+    "pages/kol/examining/index",
+    "pages/kol/service/index",
+    "pages/kol/consummate/index",
+    "pages/platformDetail/index",
+    "pages/confirmModal/index"
+  ],
+  "window": {
+    "navigationStyle": "default",
+    "_navigationStyle": "custom",
+    "backgroundTextStyle": "#fff",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "KCard",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#151516",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/mcn/main-1/index",
+        "iconPath": "assets/img/KCardfoot@modify.png",
+        "selectedIconPath": "assets/img/KCardfoot@modify.png"
+      },
+      {
+        "pagePath": "pages/brand/create/index",
+        "text": "通告"
+      },
+      {
+        "pagePath": "pages/mcn/center/index",
+        "text": "我的"
+      }
+    ],
+    "nouse": [
+      {
+        "pagePath": "pages/userCenter/personalInformation/personalInformation",
+        "text": "商城",
+        "iconPath": "images/greyMall.png",
+        "selectedIconPath": "images/yellowMall.png"
+      }
+    ]
+  }
+}

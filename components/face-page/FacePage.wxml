@@ -1,0 +1,22 @@
+<view>
+    <ul class="faceListsBox">
+        <li class="outList" wx:for="{{Flist}}" wx:for-item="item" wx:key="*this">
+            <view class="list-item">
+                <view class='imgBox'>
+                    <image class="img1" src="{{item.url}}" />
+                </view>
+                <view class="fansBox">
+                    <view class="infoview">
+                        {{item.ranking}} {{item.name}}
+                    </view>
+                    <view class="infoview">
+                            {{item.fans}}
+                    </view>
+                </view>
+                <view class="contact">
+                    <view>联系</view>
+                </view>
+            </view>
+        </li>
+    </ul>
+</view>

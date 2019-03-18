@@ -1,0 +1,15 @@
+<view>
+    <ul class="synListsBox">
+        <li class="outList" wx:for="{{list}}" wx:for-item="item" wx:key="*this">
+            <view class="title">
+                {{item.name}}
+                <view class="infobtn">欢迎加入</view>
+            </view>
+            <ul>
+                <li wx:for="{{item.infoMsg}}" wx:for-item="infoItem" wx:key="*this">
+                    {{infoItem}}
+                </li>
+            </ul>
+        </li>
+    </ul>
+</view>

@@ -1,0 +1,31 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="标题" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="时间" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="通告描述" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="简介" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="活动福利/费用" />
+        </view>
+    </view>
+    <view class="bottom-button next">立即发布</view>
+</view>
+<foot></foot>

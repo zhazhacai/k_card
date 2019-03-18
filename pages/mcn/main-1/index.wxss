@@ -1,0 +1,61 @@
+
+.main-title-a {
+    margin-top: 22rpx;
+    padding-bottom: 44rpx;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.service-text {
+    margin-top: 34rpx;
+    font-size:13px;
+    line-height: 21px;
+    color: rgba(40,40,40,.7);
+}
+
+.main-title-b {
+    margin-top: 40rpx;
+    padding-bottom: 72rpx;
+    border-bottom:1px solid rgba(151,151,151,.2);
+}
+
+.people-list {
+    width: 100%;
+}
+
+.people-item {
+    display: inline-block;
+    width: 33.33%;
+    margin-top: 48rpx;
+    text-align: center;
+    font-size: 0;
+}
+
+.people-img {
+    width: 160rpx;
+    height: 160rpx;
+}
+
+
+.people-item .name {
+    color: #282828;
+    font-size: 12px;
+    font-size: 12px;
+    margin-top: 20rpx;
+}
+
+.increase {
+    display: inline-block;
+    height: 160rpx;
+    width: 160rpx;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,rgb(54,208,117),rgb(11,170,165));
+    font-size:48px;
+    color: #fff;
+    text-align: center;
+    line-height: 160rpx;
+}
+
+.people-item .add {
+    margin-top: 20rpx;
+    color: RGBA(40, 40, 40, .5);
+}

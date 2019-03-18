@@ -1,0 +1,8 @@
+<view class="kol-head">
+    <image src="../../assets/img/kolhead.png" mode="widthFix" />
+    <view class="kol-head-content">
+        <view class="user">{{user}}</view>
+        <view class="title">{{title}}</view>
+        <view class="time">{{time}}</view>
+    </view>
+</view>

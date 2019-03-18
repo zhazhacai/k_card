@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "SynPage": "/components/syn-page/SynPage",
+        "FacePage": "/components/face-page/FacePage",
+        "DancePage": "/components/dance-page/DancePage",
+        "BeautyPage": "/components/beauty-page/BeautyPage"
+      }
+}
+

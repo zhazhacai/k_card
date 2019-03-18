@@ -1,0 +1,115 @@
+.com-page {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background: #00001D;
+}
+
+.com-head {
+    position: relative;
+    height: 376rpx;
+}
+
+.com-head image {
+    position: absolute;
+    z-index: 1;
+}
+
+.com-head image.img1 {
+    width: 38%;
+    height: 100%;
+    right: 0;
+}
+
+.com-head image.img2 {
+    left: 40rpx;
+    width: 270rpx;
+    height: 200rpx;
+    bottom: 0;
+}
+
+.com-head image.img3 {
+    top: 40rpx;
+    left: 40rpx;
+    height: 40rpx;
+    width: 160rpx;
+}
+
+.com-head image.img4 {
+    top: 100rpx;
+    left: 40rpx;
+    height: 25rpx;
+    width: 400rpx;
+}
+
+.com-foot {
+    height: 104rpx;
+    background: #00001D;
+}
+
+.com-page .container {
+    flex: 1;
+    overflow: auto;
+    margin: 0 32rpx;
+    padding: 70rpx;
+    background-color: #fff;
+    color: #000;
+}
+.com-page .container.container1 {
+    padding: 70rpx 27rpx;
+}
+
+.swiper-tab {
+    position: absolute;
+    z-index: 2;
+    left: 40rpx;
+    bottom: 28rpx;
+    width: 100%;
+    font-size: 35rpx;
+}
+
+.swiper-tab-item {
+    float: left;
+    margin-right: 37rpx;
+    color: #464658;
+}
+
+.active {
+    color: #fff;
+    font-size: 37rpx;
+}
+
+swiper {
+    height: 100%;
+}
+
+swiper-item {
+    overflow-y: scroll;
+}
+
+swiper-item::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+swiper-item::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+swiper-item::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    background: #fff;
+}
+
+.myBox li {
+    display: block;
+    width: 144rpx;
+    padding: 20rpx 0;
+    border-bottom: 3rpx solid #eee;
+    font-size: 36rpx;
+}
+.myBox li:first-child {
+    padding-top: unset;
+}

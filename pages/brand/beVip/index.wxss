@@ -1,0 +1,28 @@
+
+.container {
+    flex-grow: 1;
+}
+.vip {
+    color: #282828;
+    font-size: 14px;
+    margin-top: 50rpx;
+}
+.text {
+    color: rgba(40,40,40,.7);
+    font-size: 13px;
+    margin-top: 12rpx;
+    line-height: 40rpx;
+}
+
+.next{
+    margin-top: 80rpx;
+}
+
+.bottom-button {
+    background: linear-gradient(to right, #8F30FC, #3A00FF);
+}
+
+.bottom-text {
+    padding-bottom: 182rpx;
+    border-bottom:1px solid rgba(151,151,151,.2);
+} 

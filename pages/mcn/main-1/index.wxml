@@ -1,0 +1,26 @@
+<kit bg="{{color}}">
+  <view slot="main">
+    <personal info="{{personal}}"></personal>
+    <view class="main-title-a">
+      <caption title_en='COMPANY' title_zh="公司介绍" title_style="{{title_style}}"></caption>
+      <view class="service-text">
+        小树文化传媒总部位于美国俄勒冈州波特兰市。公司生产的体育用品包罗万象，例如服装，鞋类，运动器材等NIKE是全球著名的体育运动品牌，英文原意指希腊胜利女神，中文译为耐克。</view>
+    </view>
+    <view class="main-title-b">
+      <caption title_en='KOLS' title_zh="旗下KOL" title_style="{{title_style}}"></caption>
+      <view class="people-list">
+        <view class="people-item">
+          <image class="people-img" src="../../../assets/img/photo1.png" />
+          <view class="name">超可爱的小可…</view>
+        </view>
+        <view class="people-item">
+          <view class="increase">+</view>
+          <view class="name add">添加</view>
+        </view>
+      </view>
+    </view>
+    <view style="margin-top: 40rpx">
+      <foot></foot>
+    </view>
+  </view>
+</kit>

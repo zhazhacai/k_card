@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "foot": "/components/kol-foot/foot",
+        "head": "/components/kol-head/head",
+        "tabbar": "/components/foot/foot"
+      }
+}
+

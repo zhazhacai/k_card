@@ -1,0 +1,179 @@
+.photo-title {
+    font-size: 24rpx;
+    margin-top: 40rpx;
+    margin-bottom: 30rpx;
+}
+
+.photo {
+    width: 128rpx;
+    height: 128rpx;
+    position: relative;
+    margin-bottom: 15px
+}
+
+.photo image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+}
+
+.photo-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 66rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    text-align: center;
+    background-color: #F22A89;
+    font-size: 24rpx;
+    color: #fff;
+}
+
+.item {
+    border-bottom: 1px solid RGBA(151, 151, 151, 0.2);
+    font-size: 32rpx;
+    padding: 46rpx 0 30rpx;
+}
+
+.item textarea{
+    width: 670rpx;
+    min-height: 19px;
+}
+
+.tip-color {
+    color: rgba(40, 40, 40, 0.3);
+}
+
+.upqr {
+    padding: 40rpx 0;
+    font-size: 32rpx;
+    overflow: hidden;
+}
+.pic-title,.video-title{
+    font-size: 32rpx;
+}
+.pic-container,.video-list{
+    overflow: hidden;
+    padding: 40rpx 0;
+}
+.qr-title{
+    margin-bottom: 40rpx;
+}
+.pic-list{
+    border-bottom: 1px solid RGBA(151, 151, 151, 0.2); 
+}
+.qr-button,
+.pic-button,
+.pic-list image {
+    width: 128rpx;
+    height: 128rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: rgba(216, 216, 216, 1);
+    line-height: 128rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left;
+}
+.video-explain{
+    font-size: 20rpx;
+    /* margin-bottom: 50rpx */
+}
+.video-list image{
+    width: 128rpx;
+    height: 208rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: rgba(216, 216, 216, 1);
+    line-height: 128rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left;
+}
+.video-button{
+    width: 128rpx;
+    height: 208rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: RGBA(216, 216, 216, 0.4);
+    line-height: 208rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left; 
+}
+.next{
+    margin-top: 80rpx;
+    width:654rpx;
+    height:100rpx;
+    background:linear-gradient(163deg,rgba(255,71,139,1) 0%,rgba(224,0,134,1) 100%);
+    border-radius:50rpx;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color:#a2979d; */
+}
+
+.item .iconfont{
+    font-size: 24rpx;
+    color: RGBA(151, 151, 151, 0.5)
+}
+
+
+/* 城市选择样式 */
+
+.picker-view--wrapper {
+    position: fixed;
+    top: 0;
+    left: 0rpx;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    z-index:12;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.picker-view {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.btn {
+    width: 100%;
+    height: 90rpx;
+    padding: 0 24rpx;
+    box-sizing: border-box;
+    line-height: 90rpx;
+    text-align: center;
+    display: flex;
+    background: rgba(255,255,255,.8);
+    justify-content: space-between;
+}
+.cont {
+    width: 100%;
+    height: 389rpx;
+}
+.picker-item {
+    line-height: 70rpx;
+    margin-left: 5rpx;
+    margin-right: 5rpx;
+    text-align: center;
+}
+.address {
+    display: inline-block;
+    text-align: left;
+}

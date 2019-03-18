@@ -1,0 +1,42 @@
+.examining-list {
+    margin-top: 40rpx;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    padding: 40rpx 50rpx 60rpx 50rpx;
+    border-radius: 20rpx;
+    color: #fff;
+}
+
+.background {
+    background: #DD1A1A;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.title {
+    font-size: 40rpx;
+    margin-bottom: 60rpx;
+}
+
+.content {
+    font-size: 28rpx;
+}
+.item-content .publish {
+    width: 220rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    border-radius:25px;
+    margin-top: 54rpx;
+    background: #fff;
+    font-size: 14px;
+    color: #F72E2E;
+    text-align: center;
+    font-weight:600;
+}

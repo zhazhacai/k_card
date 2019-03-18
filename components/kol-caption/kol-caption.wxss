@@ -1,0 +1,13 @@
+.profile-name-es {
+    font-size: 84rpx;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.profile-name-cn {
+    font-size:32rpx;
+    font-weight:700;
+    margin-top: -76rpx;
+    padding-left: 16rpx;
+
+}

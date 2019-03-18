@@ -1,0 +1,47 @@
+.synListsBox li{
+    display: inline-block;
+    width: 100%;
+    font-size: 30rpx;
+    margin-bottom: 18rpx;
+}
+.synListsBox .outList{
+    border-top:1px solid #000;
+    padding-top: 70rpx;
+}
+.synListsBox .outList:first-child{
+    border-top:unset;
+    padding-top: unset;
+}
+.synListsBox .outList:nth-of-type(odd) .title .infobtn{
+    background: #F9D257;
+}
+.synListsBox .outList:nth-of-type(even) .title .infobtn{
+    background: #92C93B;
+}
+.synListsBox .outList:nth-of-type(odd) .title{
+    color: #F9D257;
+}
+.synListsBox .outList:nth-of-type(even) .title{
+    color: #92C93B;
+}
+.synListsBox .title{
+    position: relative;
+    height: 56rpx;
+    line-height: 56rpx;
+    margin-bottom: 30rpx;
+    font-size: 40rpx;
+    color: #F9D257;
+}
+/* li:first-child, */
+.synListsBox .title .infobtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170rpx;
+    height: 56rpx;
+    line-height: 56rpx;
+    border-radius: 28rpx;
+    font-size: 26rpx;
+    text-align: center;
+    color: #fff;
+}

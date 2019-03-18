@@ -1,0 +1,14 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="tab-box">
+  <text class="tab-box-title">LEPOMROOM博主招募</text>
+  <view class="tab-box-titleBottomBorder"></view>
+  <view class="tab-box-content">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+  <button class="tab-box-button">立即申请</button>
+</view>
+<view class="tab-box">
+  <text class="tab-box-title">LEPOMROOM博主招募</text>
+  <view class="tab-box-titleBottomBorder"></view>
+  <view class="tab-box-content">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+  <button class="tab-box-button">立即申请</button>
+</view>
+<foot></foot>

@@ -1,0 +1,32 @@
+<kit bg="{{color}}">
+  <view slot="main">
+    <personal info="{{personal}}"></personal>
+      <view class="main-title-a">
+        <caption title_en='prand' title_zh="品牌介绍" title_style="{{title_style}}"></caption>
+        <view class="service-text">
+          NIKE公司总部位于美国俄勒冈州波特兰市。公司生产的体育用品包罗万象，例如服装，鞋类，运动器材等NIKE是全球著名的体育运动品牌，英文原意指希腊胜利女神，中文译为耐克。</view>
+      </view>
+      <view class="main-title-b">
+        <caption title_en='pictures' title_zh="品牌图集" title_style="{{title_style}}"></caption>
+        
+        <view class="black-img">
+          <image class="heiren" src="../../../assets/img/heiren2.png" />
+          <image class="heiren" src="../../../assets/img/heiren.png" />
+          <view class="heiren heiren-more">
+            <image class="more-top" src="../../../assets/img/heiren.png" />
+            <image class="more-bottom" src="../../../assets/img/heiren.png" />
+          </view>
+        </view>
+      </view>
+      <caption title_en='demand' title_zh="通告列表" title_style="{{title_style}}"></caption>
+
+      <view class="demand">
+        <view class="demand-title">LEPOMROOM博主招募</view>
+        <view class="demand-text">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        <view class="demand-order">已有<view class="demand-count">18</view>人报名</view>
+      </view>
+      <view style="margin-top: 90rpx">
+          <foot></foot>
+      </view>
+  </view>  
+</kit>

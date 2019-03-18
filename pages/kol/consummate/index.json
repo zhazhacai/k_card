@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "head": "/components/kol-head/head",
+        "foot": "/components/kol-foot/foot",
+        "upload": "/components/upload/pic",
+        "video-upload": "/components/upload/video"
+    }
+}

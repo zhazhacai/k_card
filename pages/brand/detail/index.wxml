@@ -1,0 +1,50 @@
+<view class="detail-page">
+
+    <head title="LEPOMROOM博主招募"></head>
+    <view class="detail-date">2018-09-09</view>
+    <view class="container">
+        <view class="text-item item-first">
+            <view class="title">通告描述</view>
+            <view class="sup-title">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        </view>
+        <view class="text-item">
+            <view class="title">达人要求</view>
+            <view class="sup-title">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        </view>
+        <view class="text-item">
+            <view class="title">活动福利/费用</view>
+            <view class="sup-title">博主需要拍摄并提供至少9张优质搭配，拍摄风格与品牌一致，并在个人微博发表。</view>
+        </view>
+        <view class="ordered">已报名KOL (2)</view>
+        <view class="collection-item">
+            <image class="collection-img" src="../../../assets/img/photo1.png" />
+            <view class="collection-title">
+                <view class="title">李荣臻Love</view>
+                <view class="sup-title">总粉丝 239.3w</view>
+            </view>
+            <view class="collection-right">
+                <view class="bt no">不合适</view>
+                <view class="bt yes">通过</view>
+            </view>
+        </view>
+        <view class="collection-item">
+                <image class="collection-img" src="../../../assets/img/photo1.png" />
+                <view class="collection-title">
+                    <view class="title">李荣臻Love</view>
+                    <view class="sup-title">总粉丝 239.3w</view>
+                </view>
+                <view class="collection-right">
+                    <view class="bt no">不合适</view>
+                    <view class="bt yes">通过</view>
+                </view>
+            </view>
+
+            <view class="btn-group">
+                <view class=" group group-l">直接分享给KOL</view>
+                <view class=" group group-r">招募</view>
+            </view>
+    </view>
+    <view style="margin-top: 112rpx">
+        <foot></foot>
+    </view>
+</view>

@@ -1,0 +1,45 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="photo-title">品牌Logo</view>
+    <view class="photo">
+        <view class="video-button">+</view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="品牌名称" />
+        </view>
+    </view>
+    <view class="item">
+        <textarea class="brief" value="" placeholder="简介" placeholder-class="item-tip"></textarea>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="官网/店铺链接（可选）" />
+        </view>
+    </view>
+    <view class="pic-list">
+        <view class="pic-title">品牌图片集（2/10）</view>
+        <view class="pic-container">
+            <image src="../../../assets/img/heiren.png"></image>
+            <view class="pic-button">+</view>
+        </view>
+    </view>
+    <view class="video-title">品牌联系人信息</view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="姓名" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="手机号" />
+        </view>
+    </view>
+    <view class="item">
+        <view>
+            <input placeholder-class="tip-color" placeholder="微信号" />
+        </view>
+    </view>
+    <view class="bottom-button next">申请认证</view>
+</view>
+<foot></foot>

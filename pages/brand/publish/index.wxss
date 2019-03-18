@@ -1,0 +1,20 @@
+
+
+.item {
+    border-bottom: 1px solid rgba(151, 151, 151, 0.41);
+    font-size: 32rpx;
+    padding: 40rpx 0;
+}
+
+.tip-color {
+    color: rgba(40, 40, 40, 0.3);
+}
+
+.next{
+    margin-top: 80rpx;
+}
+
+
+.bottom-button {
+    background: linear-gradient(to right, #8F30FC, #3A00FF);
+}

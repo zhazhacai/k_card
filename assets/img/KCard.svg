@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="16px" viewBox="0 0 50 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>KCard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="114.619954%" y1="22.1929506%" x2="-5.65999349%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#08D195" offset="0%"></stop>
+            <stop stop-color="#832EF7" offset="44.6602133%"></stop>
+            <stop stop-color="#FE0164" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="DINAlternate-Bold, DIN Alternate" font-size="20" font-weight="bold">
+        <g id="MCN-Kcard" transform="translate(-47.000000, -776.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-6" transform="translate(0.000000, 758.000000)">
+                <text id="KCard">
+                    <tspan x="46" y="33">KCard</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

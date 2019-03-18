@@ -1,0 +1,68 @@
+.title-block {
+    float: left;
+    width: 52rpx;
+    height: 8rpx;
+    background-color: RGBA(128, 40, 252, 1);
+    margin: 60rpx 0;
+}
+
+.activity-title {
+    border: 1rpx solid RGBA(151, 151, 151, 0.4);
+    height: 80rpx;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    padding: 20rpx;
+}
+
+.activity-title image {
+    width: 40rpx;
+    height: 40rpx;
+    float: left;
+}
+
+.brand-name {
+    line-height: 40rpx;
+    font-size: 28rpx;
+    float: left;
+    margin-left: 20rpx;
+    height: 40rpx;
+}
+
+.brand-arrow {
+    float: right;
+    line-height: 40rpx;
+    font-size: 28rpx;
+    height: 40rpx;
+    color: RGBA(151, 151, 151, 0.3);
+}
+
+.activity-content {
+    overflow: hidden;
+}
+
+.item {
+    margin-top: 60rpx;
+
+}
+.item-title{
+    color: RGBA(40, 40, 40, 1);
+    font-size: 28rpx;
+    margin-bottom: 30rpx;
+}
+.item-content{
+    color: RGBA(40, 40, 40, 0.7);
+    font-size: 26rpx;
+}
+.signBtn{
+    position: absolute;
+    height: 100rpx;
+    text-align: center;
+    border-radius: 50rpx;
+    line-height: 100rpx;
+    color: RGBA(255, 255, 255, 0.3);
+    bottom: 200rpx;
+    left: 48rpx;
+    right: 48rpx;
+    background: linear-gradient(to right, RGBA(143, 48, 252, 1), RGBA(58, 0, 255, 1));
+}

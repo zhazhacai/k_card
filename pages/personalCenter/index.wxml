@@ -1,0 +1,18 @@
+<head user="{{user.name}}" title="{{title}}"></head>
+<view class="container">
+    <view class="collection item">
+        <view class="square icon"> 
+        </view>
+        <view class="text">收藏的KCard</view>
+    </view>
+    <view class="notice item">
+        <view class="circle icon"> 
+        </view>
+        <view class="text">通告管理</view>
+    </view>
+    <view class="video item">
+        <view class="triangle icon"> 
+        </view>
+        <view class="text">视频管理</view>
+    </view>
+</view>

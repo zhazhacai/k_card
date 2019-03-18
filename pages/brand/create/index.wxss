@@ -1,0 +1,111 @@
+.photo-title {
+    font-size: 24rpx;
+    margin-top: 40rpx;
+    margin-bottom: 30rpx;
+    color:#282828;
+}
+
+.photo {
+    width: 128rpx;
+    height: 128rpx;
+    position: relative;
+}
+
+.photo image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+}
+
+.photo-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 66rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    text-align: center;
+    background-color: #F22A89;
+    font-size: 24rpx;
+    color: #fff;
+}
+
+.item {
+    border-bottom: 1px solid rgba(151, 151, 151, 0.41);
+    font-size: 32rpx;
+    padding: 40rpx 0;
+}
+
+.tip-color {
+    color: rgba(40, 40, 40, 0.3);
+}
+
+.video-title {
+    margin-top: 56rpx;
+}
+
+.pic-title,.video-title{
+    font-size: 32rpx;
+    color:#282828;
+}
+.pic-container,.video-list{
+    overflow: hidden;
+    padding: 40rpx 0;
+}
+
+.pic-list{
+    margin-top: 46rpx;
+}
+.pic-button,
+.pic-list image {
+    width: 128rpx;
+    height: 128rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: rgba(216, 216, 216, 1);
+    line-height: 128rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left;
+}
+.video-explain{
+    font-size: 20rpx;
+    margin-bottom: 50rpx
+}
+.video-list image{
+    width: 128rpx;
+    height: 208rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: rgba(216, 216, 216, 1);
+    line-height: 128rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left;
+}
+.video-button{
+    width: 128rpx;
+    height: 128rpx;
+    background-color: rgba(216, 216, 216, 0.4);
+    color: RGBA(216, 216, 216, 0.4);
+    line-height: 128rpx;
+    text-align: center;
+    font-size: 48rpx;
+    border-radius: 8rpx;
+    margin-right: 36rpx;
+    float: left; 
+}
+.next{
+    margin-top: 80rpx;
+}
+.brief{
+    height: 126rpx;
+}
+
+.bottom-button {
+    background: linear-gradient(to right, #8F30FC, #3A00FF);
+}

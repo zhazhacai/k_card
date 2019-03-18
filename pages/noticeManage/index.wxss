@@ -1,0 +1,80 @@
+.tab-box {
+    height: 310rpx;
+    border: 2rpx solid #979797;
+    border-radius: 8rpx;
+    margin: 30rpx 0;
+    padding: 40rpx 48rpx;
+    position: relative;
+}
+
+.tab-box-title {
+    font-size: 32rpx;
+    color: #282828;
+    margin-bottom: 12rpx;
+    font-family: PingFangSC;
+}
+
+.tab-box-titleBottomBorder {
+    width: 52rpx;
+    height: 6rpx;
+    background: #8028FC;
+    margin-bottom: 32rpx;
+}
+
+.tab-box-content {
+    font-size: 26rpx;
+    font-family: PingFangSC;
+    white-space: 40rpx;
+    color: #282828;
+}
+
+.tab-box-button {
+    width: 168rpx;
+    height: 56rpx;
+    background: #32CD78;
+    border-radius: 28rpx;
+    color: #fff;
+    font-size: 24rpx;
+    position: absolute;
+    bottom: 40rpx;
+    right: 48rpx;
+}
+
+.chose {
+    overflow: hidden;
+    height: 56rpx;
+    margin-top: 60rpx;
+}
+
+.status {
+    float: left;
+    clear: both;
+    color: #8028FC;
+    font-size: 26rpx;
+    line-height: 56rpx;
+}
+
+.chose-box {
+    float: right;
+    width: 256rpx;
+}
+
+.btn {
+    float: left;
+    width: 120rpx;
+    height: 56rpx;
+    line-height: 56rpx;
+    color: #fff;
+    text-align: center;
+    font-size: 24rpx;
+    border-radius: 28rpx;
+}
+
+.reject {
+    background-color: #FF3636;
+    margin-right: 16rpx;
+}
+
+.approve {
+    background-color: #32CD78;
+}

@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "confirm": "/components/confirm-box/confirmBox",
+        "foot": "/components/foot/foot"
+      }
+}
